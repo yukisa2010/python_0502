@@ -1,3 +1,5 @@
+#seabornの使い方、訓練用・テストデータの分解
+
 import numpy as np
 import pandas as pd
 import seaborn as sns
@@ -30,9 +32,6 @@ model.fit(X_train, y_train)
 #検証←検証データ
 test = model.score(X_test,y_test)
 print(test)
-
-
-
 
 
 
